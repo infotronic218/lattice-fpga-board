@@ -3548,6 +3548,12 @@
 		(uuid "4c9af6aa-443e-4ab2-887f-5987360cb286")
 	)
 	(junction
+		(at 44.45 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cba9b8b-2670-4c09-8719-b82ba1b19f55")
+	)
+	(junction
 		(at 210.82 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4577,6 +4583,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 62.23) (xy 44.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dede2fd7-7f13-4f25-bf40-c5a439e3213f")
+	)
+	(wire
+		(pts
 			(xy 52.07 72.39) (xy 52.07 80.01)
 		)
 		(stroke
@@ -4832,6 +4848,17 @@
 			(justify right)
 		)
 		(uuid "6c892572-b006-406a-81bb-7b0ef04379d5")
+	)
+	(hierarchical_label "SHIFT_REG_OE"
+		(shape input)
+		(at 40.64 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94884412-c92c-45a8-ab3c-0672ade59e23")
 	)
 	(hierarchical_label "7SEG_D1"
 		(shape input)
@@ -5926,7 +5953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
+		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
 			(at 46.99 80.01 0)
 			(effects
 				(font

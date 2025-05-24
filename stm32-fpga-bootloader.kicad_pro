@@ -806,6 +806,10 @@
     [
       "f8c0ff28-3789-4e02-b69f-968e28b34b5f",
       "jtag-prog"
+    ],
+    [
+      "78f79e27-5991-443e-9657-8ff8f155d4b1",
+      "lcmxo2-cpld-block"
     ]
   ],
   "text_variables": {}
