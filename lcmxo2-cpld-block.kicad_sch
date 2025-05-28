@@ -5074,6 +5074,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d526f1-5dbe-470c-ae5e-3287bf92b89a")
+	)
+	(wire
+		(pts
 			(xy 267.97 147.32) (xy 270.51 147.32)
 		)
 		(stroke
@@ -7635,6 +7645,17 @@
 			(justify right)
 		)
 		(uuid "c864a1a4-339c-4af2-9055-21bf4edd0483")
+	)
+	(hierarchical_label "PL5A/PCLKT3_1"
+		(shape passive)
+		(at 176.53 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8ef3ee8-05c1-4891-9c36-a6ce41f02feb")
 	)
 	(hierarchical_label "CPLDK_SCK"
 		(shape passive)
