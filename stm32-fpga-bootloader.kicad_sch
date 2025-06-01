@@ -7648,7 +7648,7 @@
 	)
 	(rectangle
 		(start 137.16 69.85)
-		(end 208.28 129.54)
+		(end 228.6 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -10039,16 +10039,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 58.42) (xy 264.16 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63510787-6cf7-4a0b-9274-a78729d08fa1")
-	)
-	(wire
-		(pts
 			(xy 434.34 45.72) (xy 450.85 45.72)
 		)
 		(stroke
@@ -10056,6 +10046,16 @@
 			(type default)
 		)
 		(uuid "652eb1fe-cdb5-426f-b654-c5860f4bd837")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 264.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65af2ced-932b-4a29-a390-aa07ead8213b")
 	)
 	(wire
 		(pts
@@ -13217,6 +13217,16 @@
 		)
 		(uuid "32c75d35-0cdc-497b-bf33-ea3f77362aed")
 	)
+	(label "ICE_USB_P"
+		(at 245.11 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "344c3718-9a4c-4fde-ab1f-04f3859133fc")
+	)
 	(label "DIG_3"
 		(at 398.78 187.96 180)
 		(effects
@@ -14217,6 +14227,16 @@
 		)
 		(uuid "a8a0cc24-8d72-4908-bb90-e67df8f6ab3d")
 	)
+	(label "IOB_20a"
+		(at 199.39 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa8a53ef-d75e-489f-b4a3-b1fd33230202")
+	)
 	(label "RPI_ICE2"
 		(at 245.11 66.04 0)
 		(effects
@@ -14787,16 +14807,6 @@
 		)
 		(uuid "e938d990-b20f-4777-8b64-6165ebad23ca")
 	)
-	(label "ICE_X2"
-		(at 199.39 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb89bc49-fe9f-4ca2-8f1b-d2d163178be0")
-	)
 	(label "RPI_ICE3"
 		(at -166.37 88.9 180)
 		(effects
@@ -14826,6 +14836,16 @@
 			(justify right bottom)
 		)
 		(uuid "ee0c1435-a357-49b3-b71d-55a5f5694161")
+	)
+	(label "ICE_USB_N"
+		(at 240.03 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f00a7750-7db5-48a3-bf3c-f53609b9b21a")
 	)
 	(label "ICE_CLOCK"
 		(at 26.67 87.63 0)
