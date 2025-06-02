@@ -965,6 +965,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -7648,7 +7819,7 @@
 	)
 	(rectangle
 		(start 137.16 69.85)
-		(end 228.6 129.54)
+		(end 228.6 137.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -7930,12 +8101,6 @@
 		(uuid "295e2b89-9006-4ad0-9d25-bf16726ad392")
 	)
 	(junction
-		(at 151.13 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c276938-de4e-43bd-915f-77a9d3e9dd0a")
-	)
-	(junction
 		(at 165.1 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8062,12 +8227,6 @@
 		(uuid "87e38401-abe7-49e3-966f-919f9094da7b")
 	)
 	(junction
-		(at 170.18 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e805c2b-1119-4d2e-a486-11abfa2cf75e")
-	)
-	(junction
 		(at 345.44 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8114,12 +8273,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1c2a433-e09d-4996-bb93-ae8b62e41b1e")
-	)
-	(junction
-		(at 170.18 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7b1b5d8-4e47-4dd7-a6ed-8d560701b639")
 	)
 	(junction
 		(at -153.67 173.99)
@@ -8190,7 +8343,7 @@
 		(uuid "0442d57f-2788-4ef4-ab74-2518de69c73a")
 	)
 	(no_connect
-		(at 110.49 31.75)
+		(at 49.53 170.18)
 		(uuid "04bcb418-bbe0-4e99-ac56-29bf2fff112e")
 	)
 	(no_connect
@@ -8248,10 +8401,6 @@
 	(no_connect
 		(at 304.8 204.47)
 		(uuid "4a7a6c4b-4ec2-4b16-af72-f8037a99db70")
-	)
-	(no_connect
-		(at 166.37 91.44)
-		(uuid "4b7d2cb4-13fa-40c4-9979-337ff5678441")
 	)
 	(no_connect
 		(at 378.46 190.5)
@@ -8328,10 +8477,6 @@
 	(no_connect
 		(at 46.99 57.15)
 		(uuid "8e9330a3-3617-4090-8625-ef56543f7357")
-	)
-	(no_connect
-		(at 166.37 88.9)
-		(uuid "9002ac3a-e680-465f-9634-c792490d5cfe")
 	)
 	(no_connect
 		(at 46.99 49.53)
@@ -8446,16 +8591,6 @@
 			(type default)
 		)
 		(uuid "0081d933-922c-49b0-b3eb-ccffbeaa8ec8")
-	)
-	(wire
-		(pts
-			(xy 143.51 121.92) (xy 151.13 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "013222be-acba-4b91-8030-7eb9dba99967")
 	)
 	(wire
 		(pts
@@ -8579,16 +8714,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 170.18 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f1562a-e846-43c7-b263-d4dee07dd2ab")
-	)
-	(wire
-		(pts
 			(xy 391.16 198.12) (xy 394.97 198.12)
 		)
 		(stroke
@@ -8606,16 +8731,6 @@
 			(type default)
 		)
 		(uuid "08d447f9-1ef6-4b4a-a5dc-8936e0a145b0")
-	)
-	(wire
-		(pts
-			(xy 166.37 101.6) (xy 170.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "095ab70f-4ba0-4bfb-b8af-9016c23883d3")
 	)
 	(wire
 		(pts
@@ -8739,16 +8854,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 167.64 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ae40a8-d6ae-4317-93cc-b3d7035ab9a0")
-	)
-	(wire
-		(pts
 			(xy 43.18 203.2) (xy 46.99 203.2)
 		)
 		(stroke
@@ -8819,7 +8924,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 29.21) (xy 97.79 29.21)
+			(xy 17.78 167.64) (xy 36.83 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9059,7 +9164,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 34.29) (xy 95.25 35.56)
+			(xy 34.29 172.72) (xy 34.29 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9299,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 26.67) (xy 132.08 26.67)
+			(xy 49.53 165.1) (xy 71.12 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10129,16 +10234,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 104.14) (xy 170.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6b0690-216f-43f4-8041-1ef31d9d2364")
-	)
-	(wire
-		(pts
 			(xy 46.99 87.63) (xy 44.45 87.63)
 		)
 		(stroke
@@ -10229,16 +10324,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 102.87) (xy 170.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8cc0e6-05fd-4a75-ad02-33661f662b1e")
-	)
-	(wire
-		(pts
 			(xy -185.42 60.96) (xy -167.64 60.96)
 		)
 		(stroke
@@ -10246,6 +10331,16 @@
 			(type default)
 		)
 		(uuid "6ff9cde8-ee26-432a-aeef-791281f8499f")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7134b29d-3c42-4398-a388-f252ba5d3ed3")
 	)
 	(wire
 		(pts
@@ -10269,7 +10364,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 29.21) (xy 132.08 29.21)
+			(xy 49.53 167.64) (xy 71.12 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10306,16 +10401,6 @@
 			(type default)
 		)
 		(uuid "75d5cf25-6ac0-4f2f-bc69-20625d9281e0")
-	)
-	(wire
-		(pts
-			(xy 166.37 99.06) (xy 170.18 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ed9b48-6ff8-4615-8076-d90e4097cc40")
 	)
 	(wire
 		(pts
@@ -10366,6 +10451,16 @@
 			(type default)
 		)
 		(uuid "78e2a59e-5072-4396-970e-2a7409d18676")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e7cccf-7432-43e5-a03d-4af98e37cff8")
 	)
 	(wire
 		(pts
@@ -10599,16 +10694,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 97.79) (xy 170.18 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86cf9e85-cd39-4e2a-b89d-6fc954b56d5a")
-	)
-	(wire
-		(pts
 			(xy -232.41 8.89) (xy -222.25 8.89)
 		)
 		(stroke
@@ -10736,16 +10821,6 @@
 			(type default)
 		)
 		(uuid "8f30178e-f799-483a-906a-9d434fa224ff")
-	)
-	(wire
-		(pts
-			(xy 170.18 99.06) (xy 170.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fccc7a7-3d58-4980-b454-3f30ec0df023")
 	)
 	(wire
 		(pts
@@ -10959,16 +11034,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 170.18 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d092582-5577-457f-b0b4-005ab37a9482")
-	)
-	(wire
-		(pts
 			(xy 303.53 210.82) (xy 303.53 209.55)
 		)
 		(stroke
@@ -11039,7 +11104,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 24.13) (xy 110.49 24.13)
+			(xy 71.12 162.56) (xy 49.53 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11359,7 +11424,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 21.59) (xy 97.79 21.59)
+			(xy 17.78 160.02) (xy 36.83 160.02)
 		)
 		(stroke
 			(width 0)
@@ -11539,7 +11604,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 34.29) (xy 115.57 34.29)
+			(xy 49.53 172.72) (xy 54.61 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11599,7 +11664,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 21.59) (xy 110.49 21.59)
+			(xy 71.12 160.02) (xy 49.53 160.02)
 		)
 		(stroke
 			(width 0)
@@ -11799,7 +11864,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 24.13) (xy 97.79 24.13)
+			(xy 17.78 162.56) (xy 36.83 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11999,16 +12064,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 170.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3bb28b4-9d05-4861-b555-fd8eb7f76be7")
-	)
-	(wire
-		(pts
 			(xy -208.28 21.59) (xy -208.28 30.48)
 		)
 		(stroke
@@ -12019,7 +12074,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 26.67) (xy 97.79 26.67)
+			(xy 17.78 165.1) (xy 36.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12219,7 +12274,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 31.75) (xy 97.79 31.75)
+			(xy 17.78 170.18) (xy 36.83 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12299,7 +12354,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 34.29) (xy 97.79 34.29)
+			(xy 34.29 172.72) (xy 36.83 172.72)
 		)
 		(stroke
 			(width 0)
@@ -12479,6 +12534,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef97a467-2242-4195-a1d0-145f596b2037")
+	)
+	(wire
+		(pts
 			(xy 328.93 93.98) (xy 328.93 100.33)
 		)
 		(stroke
@@ -12516,6 +12581,16 @@
 			(type default)
 		)
 		(uuid "f10c1fd2-3d67-4187-bda2-662b737dcdf5")
+	)
+	(wire
+		(pts
+			(xy 170.18 102.87) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bf6a9e-74e7-469f-9044-0337e443e376")
 	)
 	(wire
 		(pts
@@ -12948,7 +13023,7 @@
 		(uuid "1bec6c93-11b7-478e-9ed6-516e68defccd")
 	)
 	(label "GPIO20_I2C0_SDA"
-		(at 132.08 21.59 180)
+		(at 71.12 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13046,16 +13121,6 @@
 			(justify left bottom)
 		)
 		(uuid "25bbb5b7-1c3e-45ec-9a4a-58d085f7fc9b")
-	)
-	(label "D+"
-		(at 166.37 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26463889-fe5a-47aa-909a-70a1ec08cda1")
 	)
 	(label "IOB_23b"
 		(at 245.11 55.88 0)
@@ -13448,7 +13513,7 @@
 		(uuid "4f9121be-4b4a-463d-9a68-9ec45776478d")
 	)
 	(label "GPIO19_SPI0_TX"
-		(at 78.74 24.13 0)
+		(at 17.78 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13578,7 +13643,7 @@
 		(uuid "59c8a664-3c5a-47cf-806f-ad6342a5f99a")
 	)
 	(label "GPIO18_SPI0_SCK"
-		(at 78.74 21.59 0)
+		(at 17.78 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13628,7 +13693,7 @@
 		(uuid "60271781-8974-4271-85d0-2b3d31e7fd71")
 	)
 	(label "GPIO17_SPI0_CSn"
-		(at 78.74 29.21 0)
+		(at 17.78 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13827,16 +13892,6 @@
 		)
 		(uuid "7cc255eb-c7c2-46c6-95bb-76c42e5186c6")
 	)
-	(label "D-"
-		(at 166.37 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7eee3adf-fcb0-46bf-b483-a502fdfca10e")
-	)
 	(label "CPLD_B1_PT10B"
 		(at 506.73 45.72 180)
 		(effects
@@ -13848,7 +13903,7 @@
 		(uuid "7f70e4dc-c4b4-413e-8d7f-76c3ea7b5c10")
 	)
 	(label "GPIO16_SPI0_RX"
-		(at 78.74 26.67 0)
+		(at 17.78 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14118,7 +14173,7 @@
 		(uuid "9eeee4f9-9570-4c30-a807-6aa2d82f53b1")
 	)
 	(label "GPIO26_ADC0"
-		(at 132.08 26.67 180)
+		(at 71.12 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14178,7 +14233,7 @@
 		(uuid "a3891703-5317-4c2e-bff6-d22cf2261f43")
 	)
 	(label "ICE_CLOCK"
-		(at 78.74 31.75 0)
+		(at 17.78 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14588,7 +14643,7 @@
 		(uuid "d1ff12aa-6f92-4024-b4a6-87867f310a28")
 	)
 	(label "GPIO21_I2C0_SCL"
-		(at 132.08 24.13 180)
+		(at 71.12 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14608,7 +14663,7 @@
 		(uuid "d38f7f99-c881-433c-9e48-60cdb166ef39")
 	)
 	(label "GPIO27_ADC1"
-		(at 132.08 29.21 180)
+		(at 71.12 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15049,6 +15104,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Component Class" ""
@@ -15142,6 +15198,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Component Class" ""
@@ -15260,7 +15317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "086057bb-c630-4767-9411-01a8ad7ae563")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 354.33 92.3289 0)
 			(effects
 				(font
@@ -15377,7 +15434,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -15459,7 +15516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c7f9e44-9070-454e-8063-6eab17fa5a96")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR063"
 			(at 459.74 35.56 0)
 			(effects
 				(font
@@ -15509,7 +15566,79 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0186")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 161.29 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d7079c1-ea84-4765-b493-a438bc8fc163")
+		(property "Reference" "J4"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB FPGA"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "561fdfbd-3e80-411d-bbea-80caa50cde84")
+		)
+		(pin "3"
+			(uuid "7b54767e-f6b7-43c1-9197-7b6ebe554757")
+		)
+		(pin "2"
+			(uuid "78a2133a-4080-4d77-8a15-44d84face0d5")
+		)
+		(instances
+			(project ""
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15604,7 +15733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea58ec4-eb52-46c8-a994-aa02e8a5c120")
-		(property "Reference" "R31"
+		(property "Reference" "R37"
 			(at 360.68 88.9 0)
 			(effects
 				(font
@@ -15658,7 +15787,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R31")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -15673,7 +15802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12110ae3-9bd6-42ab-8133-4fe6bb94d481")
-		(property "Reference" "R74"
+		(property "Reference" "R35"
 			(at 344.424 199.644 90)
 			(effects
 				(font
@@ -15725,7 +15854,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R74")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -15740,7 +15869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16dec9b5-47ce-4f23-83e8-2cbc188e211c")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR054"
 			(at 328.93 97.79 0)
 			(effects
 				(font
@@ -15790,7 +15919,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR058")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -15805,7 +15934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a44f05a-3392-4c4b-9750-917a95d2a2ad")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR052"
 			(at 328.93 114.3 0)
 			(effects
 				(font
@@ -15855,7 +15984,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR057")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -16038,7 +16167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ebe8fb4-db42-4831-80fd-683017991143")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR029"
 			(at 60.96 227.33 0)
 			(effects
 				(font
@@ -16088,72 +16217,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20a5bc94-cc24-4160-a786-291b13501a86")
-		(property "Reference" "#PWR044"
-			(at 151.13 128.27 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 125.476 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce99ce31-aef0-466d-9bd7-5e0aad811b5d")
-		)
-		(instances
-			(project "stm32-fpga-bootloader"
-				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR044")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16373,7 +16437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24cf2eab-2d7e-4540-a2c2-0e099c138399")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR062"
 			(at 401.32 198.12 0)
 			(effects
 				(font
@@ -16423,7 +16487,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0192")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -16438,7 +16502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24e4c9e0-f556-4c5d-8456-45239882c53c")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR065"
 			(at 477.52 27.94 0)
 			(effects
 				(font
@@ -16488,7 +16552,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0187")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -16503,7 +16567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "251b1cdb-4a7c-4647-af25-c7011ecd1606")
-		(property "Reference" "R22"
+		(property "Reference" "R16"
 			(at 110.49 212.344 0)
 			(effects
 				(font
@@ -16557,7 +16621,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R22")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17263,7 +17327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "357561aa-ae47-4ada-8927-51489fb2ad79")
-		(property "Reference" "R76"
+		(property "Reference" "R30"
 			(at 339.344 191.516 0)
 			(effects
 				(font
@@ -17315,7 +17379,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R76")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -17391,15 +17455,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 34.29 270)
+		(at 54.61 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "35dedc50-8586-4a5d-a2e7-02480afb9eef")
-		(property "Reference" "#PWR0176"
-			(at 111.76 34.29 0)
+		(property "Reference" "#PWR034"
+			(at 50.8 172.72 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -17408,7 +17472,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 121.412 34.29 90)
+			(at 60.452 172.72 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -17416,7 +17480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 34.29 0)
+			(at 54.61 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17425,7 +17489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 34.29 0)
+			(at 54.61 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17434,7 +17498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 34.29 0)
+			(at 54.61 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17448,7 +17512,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0176")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17699,7 +17763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36886b46-acef-40ab-92b7-054bddcf9cb2")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 35.56 208.28 0)
 			(effects
 				(font
@@ -17753,7 +17817,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17768,7 +17832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36b2ed01-4c23-4731-91b0-ab33ae50e15c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR030"
 			(at 69.85 119.38 0)
 			(effects
 				(font
@@ -17818,7 +17882,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17833,7 +17897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37902afe-9ac6-423e-a527-59f65d95f302")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR048"
 			(at 303.53 217.17 0)
 			(effects
 				(font
@@ -17883,7 +17947,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17898,7 +17962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "379520af-ced2-474e-b350-e9fe73765d23")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR040"
 			(at 148.59 232.41 0)
 			(effects
 				(font
@@ -17948,7 +18012,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18028,7 +18092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ba0f5d0-44da-4f85-8b00-ecb689baa5c1")
-		(property "Reference" "R78"
+		(property "Reference" "R34"
 			(at 344.932 194.056 90)
 			(effects
 				(font
@@ -18080,7 +18144,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R78")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -18095,7 +18159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb6baef-0c88-4119-929b-7e7dc4a90b4f")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR066"
 			(at 523.24 72.39 0)
 			(effects
 				(font
@@ -18145,7 +18209,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0188")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -18160,7 +18224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cee2ff0-06f0-4894-aae1-fdd7e822062e")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR050"
 			(at 320.04 114.3 0)
 			(effects
 				(font
@@ -18210,7 +18274,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR055")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -18225,7 +18289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3df8850f-2708-4eaa-8dd5-28faf2f70451")
-		(property "Reference" "R23"
+		(property "Reference" "R17"
 			(at 133.35 226.568 90)
 			(effects
 				(font
@@ -18277,7 +18341,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R23")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -18293,7 +18357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41438cd9-a503-4e31-ad33-6a088db71b8c")
-		(property "Reference" "R87"
+		(property "Reference" "R19"
 			(at 167.64 29.2099 0)
 			(effects
 				(font
@@ -18347,7 +18411,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R87")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -18363,7 +18427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "429e5da5-3565-4648-b6c0-8ae5d2d0d22f")
-		(property "Reference" "C17"
+		(property "Reference" "C13"
 			(at 322.58 102.8762 0)
 			(effects
 				(font
@@ -18417,7 +18481,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "C17")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18433,7 +18497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43daaffd-cb4d-47db-b25a-2852ac519e49")
-		(property "Reference" "C18"
+		(property "Reference" "C14"
 			(at 331.47 102.8762 0)
 			(effects
 				(font
@@ -18487,7 +18551,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -18502,7 +18566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aa68051-a4d6-48bb-a37d-738bdac6dcae")
-		(property "Reference" "R75"
+		(property "Reference" "R36"
 			(at 344.678 201.676 90)
 			(effects
 				(font
@@ -18554,7 +18618,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R75")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -18639,7 +18703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4db1f4bd-5443-4807-aa77-d42086d2e35e")
-		(property "Reference" "R26"
+		(property "Reference" "R21"
 			(at 191.008 96.266 90)
 			(effects
 				(font
@@ -18691,7 +18755,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R26")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -18771,7 +18835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50500baf-4527-4bb4-a74a-2bacb5b7a718")
-		(property "Reference" "R27"
+		(property "Reference" "R22"
 			(at 191.008 101.346 90)
 			(effects
 				(font
@@ -18823,7 +18887,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R27")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -18839,7 +18903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51a98c0e-821f-4866-87e1-7ff23eb8e4bf")
-		(property "Reference" "J24"
+		(property "Reference" "J9"
 			(at 530.86 46.99 0)
 			(effects
 				(font
@@ -18921,7 +18985,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "J24")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -19001,7 +19065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53c6a217-efc8-41e3-9a2d-17df38b94b98")
-		(property "Reference" "J23"
+		(property "Reference" "J8"
 			(at 469.9 8.89 0)
 			(effects
 				(font
@@ -19083,7 +19147,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "J23")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -19271,7 +19335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55dd6aef-f13f-40cc-8bd6-cb7a3e6d6259")
-		(property "Reference" "JP4"
+		(property "Reference" "JP2"
 			(at 331.47 129.5399 90)
 			(effects
 				(font
@@ -19328,7 +19392,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "JP4")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -19413,7 +19477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c7dcd0f-8639-416c-bf9a-81b3ade1993b")
-		(property "Reference" "R84"
+		(property "Reference" "R25"
 			(at 288.798 193.548 90)
 			(effects
 				(font
@@ -19465,7 +19529,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R84")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -19550,7 +19614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62992cc0-aa60-4fa1-88b9-c68783ca68bb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR049"
 			(at 320.04 90.17 0)
 			(effects
 				(font
@@ -19600,72 +19664,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 167.64 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67fd936a-4cca-406b-92f5-ef8efab71c2f")
-		(property "Reference" "#PWR047"
-			(at 167.64 87.63 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 167.64 80.264 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19d4a4b0-4075-4fea-a7b3-e54c34260e62")
-		)
-		(instances
-			(project "stm32-fpga-bootloader"
-				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -19681,7 +19680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68f3f648-9f51-4a6e-936d-2cd6d26ce5ce")
-		(property "Reference" "JP2"
+		(property "Reference" "JP3"
 			(at 360.68 48.2599 90)
 			(effects
 				(font
@@ -19738,7 +19737,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "JP2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -19753,7 +19752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b1a6bee-5183-4ca3-b1e3-af962dc67135")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR059"
 			(at 377.19 193.04 0)
 			(effects
 				(font
@@ -19803,7 +19802,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR029")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -19818,7 +19817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e859e6d-fb07-4826-883b-6a3058cd45e2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 95.25 106.68 0)
 			(effects
 				(font
@@ -19868,7 +19867,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR036")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -20084,7 +20083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72443fcb-3b5f-42e7-9547-962290dd310f")
-		(property "Reference" "R77"
+		(property "Reference" "R33"
 			(at 344.424 192.024 90)
 			(effects
 				(font
@@ -20136,7 +20135,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R77")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -20152,7 +20151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7252f4e6-c10e-4aa9-b8e9-2e232d7c69a7")
-		(property "Reference" "JP1"
+		(property "Reference" "JP5"
 			(at 394.97 49.5299 90)
 			(effects
 				(font
@@ -20209,7 +20208,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "JP1")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -20224,7 +20223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72d47308-01cc-4fb2-b949-beb6badec2b0")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR051"
 			(at 328.93 90.17 0)
 			(effects
 				(font
@@ -20274,7 +20273,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR056")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -20820,7 +20819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ae34406-57b8-4a66-b59c-5847c12ac9db")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR046"
 			(at 214.63 40.64 0)
 			(effects
 				(font
@@ -20870,7 +20869,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR049")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -20885,7 +20884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b4a8703-1cdb-47db-b631-a0609b6a8a49")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR058"
 			(at 358.14 90.17 0)
 			(effects
 				(font
@@ -20935,7 +20934,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR060")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -20950,7 +20949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c4106dd-09b2-4146-8a2a-944d2badae8d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR037"
 			(at 130.81 212.09 0)
 			(effects
 				(font
@@ -21000,7 +20999,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR042")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -21015,7 +21014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8325ae12-00ea-4404-a5b3-5ef11ad7e510")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 205.74 40.64 0)
 			(effects
 				(font
@@ -21065,7 +21064,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -21081,7 +21080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "836d767b-80df-4611-a377-457a8d50533e")
-		(property "Reference" "J19"
+		(property "Reference" "J6"
 			(at 261.366 192.024 0)
 			(effects
 				(font
@@ -21135,7 +21134,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "J19")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -21283,7 +21282,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 102.87 26.67 0)
+		(at 41.91 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21291,8 +21290,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "897d2d50-0d1b-457a-a83b-34616aea7e29")
-		(property "Reference" "J22"
-			(at 104.14 15.24 0)
+		(property "Reference" "J3"
+			(at 43.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21300,7 +21299,7 @@
 			)
 		)
 		(property "Value" "RPI-TO-CPLD"
-			(at 104.14 17.78 0)
+			(at 43.18 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21308,7 +21307,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
-			(at 102.87 26.67 0)
+			(at 41.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21317,7 +21316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 26.67 0)
+			(at 41.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21326,7 +21325,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 26.67 0)
+			(at 41.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21373,7 +21372,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "J22")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -21388,7 +21387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ccec8dc-cbfd-43d7-a72a-4318dff78f60")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR045"
 			(at 224.79 38.1 0)
 			(effects
 				(font
@@ -21438,7 +21437,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR048")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -21453,7 +21452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dad2ed1-bf00-4341-a568-e1aac9cd62e3")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 337.82 177.8 0)
 			(effects
 				(font
@@ -21503,7 +21502,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -21583,7 +21582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91774a1f-76f1-4760-9900-843b544920ee")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 60.96 208.28 0)
 			(effects
 				(font
@@ -21633,7 +21632,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -21713,7 +21712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93fe1f25-8e65-447b-863a-a47f363dc5e2")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR036"
 			(at 121.92 227.33 0)
 			(effects
 				(font
@@ -21763,7 +21762,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR041")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21778,7 +21777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94de7935-be4e-462c-80ad-e1966402e56c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 345.44 187.96 0)
 			(effects
 				(font
@@ -21828,7 +21827,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21843,7 +21842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95243ec7-bc44-4899-b0a4-2bf901488c5b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 46.99 227.33 0)
 			(effects
 				(font
@@ -21893,7 +21892,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -21908,7 +21907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97334eb8-0fb6-4eb1-885a-a76291b672e8")
-		(property "Reference" "R19"
+		(property "Reference" "R13"
 			(at 96.774 210.82 0)
 			(effects
 				(font
@@ -21962,7 +21961,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R19")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -21978,7 +21977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98d9163d-7e1a-41b2-9d10-cfeca01b36b5")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 38.608 85.852 90)
 			(effects
 				(font
@@ -22030,7 +22029,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -22045,7 +22044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b5ab71a-9d48-4ee3-8641-21c4836ca60b")
-		(property "Reference" "R73"
+		(property "Reference" "R31"
 			(at 339.344 199.136 0)
 			(effects
 				(font
@@ -22097,7 +22096,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R73")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -22185,7 +22184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dd08fd9-7817-4aa3-8fe2-762890b34887")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR041"
 			(at 165.1 31.75 0)
 			(effects
 				(font
@@ -22235,7 +22234,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0174")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -22251,7 +22250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e3d53e6-ae22-40d0-bb63-2e856c168d56")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 151.13 217.1762 0)
 			(effects
 				(font
@@ -22305,7 +22304,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -22320,7 +22319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a058183e-e13b-4d12-aa41-5b222905fd4c")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR060"
 			(at 367.03 198.12 0)
 			(effects
 				(font
@@ -22370,7 +22369,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0191")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -22519,7 +22518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a63bc5a4-5842-45af-ab79-fcf9ef4321f9")
-		(property "Reference" "R85"
+		(property "Reference" "R26"
 			(at 300.482 191.008 90)
 			(effects
 				(font
@@ -22571,7 +22570,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R85")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -22753,7 +22752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a96f4601-e561-44ea-bbb0-e0ef19edbf96")
-		(property "Reference" "R20"
+		(property "Reference" "R14"
 			(at 107.442 207.518 90)
 			(effects
 				(font
@@ -22805,7 +22804,72 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R20")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 468.63 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3da338-d243-49e3-9869-af26b218244f")
+		(property "Reference" "#PWR064"
+			(at 468.63 254 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 468.63 251.206 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 468.63 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 468.63 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90442f2b-98c2-41f6-82ca-a012b9895045")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -22884,7 +22948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ada368f8-ce3c-4ef9-a2ff-e07066e0229c")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR035"
 			(at 121.92 208.28 0)
 			(effects
 				(font
@@ -22934,7 +22998,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -22949,7 +23013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae18ea5b-90e9-498c-8a70-4d5d72dc0219")
-		(property "Reference" "R82"
+		(property "Reference" "R23"
 			(at 275.082 191.008 90)
 			(effects
 				(font
@@ -23001,7 +23065,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R82")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -23016,7 +23080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3251cdb-7edc-4d95-9e1c-505cf368f9e6")
-		(property "Reference" "R83"
+		(property "Reference" "R24"
 			(at 286.512 191.008 90)
 			(effects
 				(font
@@ -23068,7 +23132,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R83")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -23085,7 +23149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8d5f8e4-eab4-4aa7-b0d1-0a4bb4632dd7")
-		(property "Reference" "R25"
+		(property "Reference" "R20"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -23139,7 +23203,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R25")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -23155,7 +23219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b909bc7a-9b56-40ff-9929-8c29cbb57f5a")
-		(property "Reference" "JP3"
+		(property "Reference" "JP1"
 			(at 330.2 49.5299 90)
 			(effects
 				(font
@@ -23212,7 +23276,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "JP3")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -23427,7 +23491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcb47229-39d3-4441-972f-eca3f318f568")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 109.22 232.41 0)
 			(effects
 				(font
@@ -23477,7 +23541,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -23694,7 +23758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c18d7355-e41c-4bb1-8b6c-5c4c61278ff6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -23744,7 +23808,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -23752,15 +23816,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 35.56 0)
+		(at 34.29 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c1eaea5e-20e8-409a-84c9-485cdb2faa94")
-		(property "Reference" "#PWR0175"
-			(at 95.25 41.91 0)
+		(property "Reference" "#PWR031"
+			(at 34.29 180.34 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -23769,7 +23833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 39.116 0)
+			(at 34.29 177.546 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -23777,7 +23841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 35.56 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23786,7 +23850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 35.56 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23795,7 +23859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 35.56 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23809,7 +23873,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0175")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -23824,7 +23888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2c0e429-b532-4b22-87c1-006a073de316")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 134.62 206.9398 0)
 			(effects
 				(font
@@ -23886,7 +23950,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -23902,7 +23966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c396b7fe-d0b8-4084-a614-274fba0a6a79")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 49.53 208.28 0)
 			(effects
 				(font
@@ -23956,7 +24020,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -23971,7 +24035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c41c18ac-0749-4e6f-b58f-64a488daefc3")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR057"
 			(at 355.6 113.03 0)
 			(effects
 				(font
@@ -24021,7 +24085,72 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR059")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4b16966-8d84-4aa2-8c1e-8b68c33c03a2")
+		(property "Reference" "#PWR042"
+			(at 166.37 111.76 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 108.966 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a1e7dc6-6eaa-44cf-a60a-66ce063a1bfb")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -24036,7 +24165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4db01fe-3085-400a-b01d-8ee79f667276")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR047"
 			(at 289.56 209.55 0)
 			(effects
 				(font
@@ -24086,7 +24215,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0183")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -24166,7 +24295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c675e4ba-8009-43c6-b892-d463cffc762f")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 334.01 217.17 0)
 			(effects
 				(font
@@ -24216,7 +24345,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -24295,7 +24424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8d4e468-b023-4d26-be75-f7d6239ac671")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR061"
 			(at 391.16 193.04 0)
 			(effects
 				(font
@@ -24345,7 +24474,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR030")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -24426,7 +24555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca507ddf-50a0-44de-aa43-f7eb0d138e95")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 39.37 40.6399 0)
 			(effects
 				(font
@@ -24480,7 +24609,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -24496,7 +24625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca536752-acae-4186-a260-ea37928f3f34")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 63.5 208.28 0)
 			(effects
 				(font
@@ -24550,7 +24679,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -24566,7 +24695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc341fa0-26ed-4221-8205-74dee1841368")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 360.68 100.3362 0)
 			(effects
 				(font
@@ -24620,7 +24749,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -24636,7 +24765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd307798-0265-462b-9985-81f8ba944d10")
-		(property "Reference" "JP5"
+		(property "Reference" "JP4"
 			(at 361.95 129.5399 90)
 			(effects
 				(font
@@ -24693,7 +24822,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "JP5")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -25111,7 +25240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3cca85e-e8c9-432c-a25e-6fa798ef5488")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 318.77 179.07 0)
 			(effects
 				(font
@@ -25250,7 +25379,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -25330,7 +25459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d417242c-9433-478f-abc4-b3fa870e5d98")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 124.968 204.724 90)
 			(effects
 				(font
@@ -25382,7 +25511,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -25397,7 +25526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d745f26d-2009-41fc-90f1-da6cd2e290bd")
-		(property "Reference" "R21"
+		(property "Reference" "R15"
 			(at 107.696 217.678 90)
 			(effects
 				(font
@@ -25449,7 +25578,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R21")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -25659,7 +25788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e96d630f-a3c6-4318-b07f-91c75df81985")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 384.81 179.07 0)
 			(effects
 				(font
@@ -25771,7 +25900,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -25843,6 +25972,199 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Module:RaspberryPi_Pico_Debug")
+		(at 468.63 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2d1213-1b5a-4e38-81fe-1ed1a40fa606")
+		(property "Reference" "A2"
+			(at 470.7733 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RaspberryPi_Pico"
+			(at 470.7733 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
+			(at 468.63 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+			(at 468.63 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+			(at 468.63 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "911dc207-4229-4b0d-b7b0-53e0f58111fb")
+		)
+		(pin "3"
+			(uuid "82869ba1-5a43-4a50-8477-00173ebf6ffc")
+		)
+		(pin "17"
+			(uuid "7afd2f7d-1e45-4677-9827-45e62cac720d")
+		)
+		(pin "34"
+			(uuid "7ba35e3f-3b32-47da-8eb7-6507d77cb3ea")
+		)
+		(pin "20"
+			(uuid "88f5b696-2b4d-46f1-b606-cb2317a5c1e4")
+		)
+		(pin "18"
+			(uuid "f4c32d42-c915-4c04-b592-54c8f5f98eba")
+		)
+		(pin "30"
+			(uuid "342758f5-2b7a-4b06-a3ce-cb3f96601c28")
+		)
+		(pin "37"
+			(uuid "37fa34f9-55c0-4ea4-975d-73ea3b44d7af")
+		)
+		(pin "8"
+			(uuid "c6da36a5-74a5-49dd-81ff-b220f541e425")
+		)
+		(pin "22"
+			(uuid "f0844ab4-9222-4a9c-8383-bcf2b25c8d18")
+		)
+		(pin "32"
+			(uuid "a4f23e4e-bb1c-4472-a4b5-a471030709e3")
+		)
+		(pin "21"
+			(uuid "57127376-b799-4163-9350-09d7d98f6f47")
+		)
+		(pin "24"
+			(uuid "edcfd04c-dde3-4d3f-93dd-776b83a89272")
+		)
+		(pin "D2"
+			(uuid "c44a9041-1fb1-49b5-b23b-e395836321b0")
+		)
+		(pin "2"
+			(uuid "ca4d21b3-0a8b-4a47-a2f5-910ed2c2bafa")
+		)
+		(pin "D1"
+			(uuid "c0caddff-5146-4100-b025-c43d55fb0b09")
+		)
+		(pin "11"
+			(uuid "67b5eddc-a7ce-4730-8d74-cc3307c22295")
+		)
+		(pin "5"
+			(uuid "a13c31a2-d52e-48bd-802a-e1c483c95ad0")
+		)
+		(pin "1"
+			(uuid "0ff70243-62dd-4a3d-8ea2-12a8d511c854")
+		)
+		(pin "39"
+			(uuid "40ae5223-3bb2-4a84-b067-d73d34ab990a")
+		)
+		(pin "13"
+			(uuid "8dbf7050-ede7-4b8f-a20c-0a2cc5821d11")
+		)
+		(pin "16"
+			(uuid "29db8992-48ff-472a-8918-d0955b0bf60c")
+		)
+		(pin "23"
+			(uuid "ba002b0e-3550-42a8-997c-83b6233d7549")
+		)
+		(pin "26"
+			(uuid "28697d60-810b-4fba-8e8a-7204a02bf5a2")
+		)
+		(pin "35"
+			(uuid "12f7c55c-227f-4543-843a-cd730bb2845e")
+		)
+		(pin "27"
+			(uuid "4ea6050d-1d4e-4a9e-a4f5-8809e59d7fac")
+		)
+		(pin "29"
+			(uuid "e7e4f8e5-9d90-4126-8405-02e7f8bb9872")
+		)
+		(pin "6"
+			(uuid "a850befc-3770-4e32-81bd-0bbc4ab2e154")
+		)
+		(pin "7"
+			(uuid "3d27bd4f-eb22-4458-9e65-f6b6a080c220")
+		)
+		(pin "40"
+			(uuid "ece0f99d-f27b-45c3-bb0e-2f7c7a33b660")
+		)
+		(pin "4"
+			(uuid "9ac80045-44e9-4e00-b4b0-28015a4b6982")
+		)
+		(pin "15"
+			(uuid "745714e0-e02f-430b-aa08-651c66b75a18")
+		)
+		(pin "38"
+			(uuid "df0ccdfa-9f1b-4a1c-860c-dadb81ef2e8a")
+		)
+		(pin "D3"
+			(uuid "884aed0c-bf21-4127-9bbd-59cfe7039b9e")
+		)
+		(pin "9"
+			(uuid "78468822-487c-4c3a-94ed-c00c338944ed")
+		)
+		(pin "10"
+			(uuid "d687c6ce-63b1-4ffe-bdb1-a486eaf14854")
+		)
+		(pin "12"
+			(uuid "300ba6e9-18d7-4514-99ae-dc346be04431")
+		)
+		(pin "28"
+			(uuid "05b58c24-cfe7-4674-8d68-445932cb0d79")
+		)
+		(pin "19"
+			(uuid "b3be74bd-5922-496a-a921-02f011a3323f")
+		)
+		(pin "36"
+			(uuid "df47e9f6-4a27-4459-a495-16d0964c59a4")
+		)
+		(pin "25"
+			(uuid "02b19bc1-f5f5-4e06-bd96-19322649e3dc")
+		)
+		(pin "31"
+			(uuid "0a12925e-99bc-493c-bf75-ba17c12f520e")
+		)
+		(pin "33"
+			(uuid "9443556a-fcfa-49a4-b57a-cf0baf724a9f")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 297.18 199.39 90)
 		(unit 1)
@@ -25851,7 +26173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef40acc2-1a54-4554-adec-f1221d2f646a")
-		(property "Reference" "R86"
+		(property "Reference" "R27"
 			(at 300.482 198.628 90)
 			(effects
 				(font
@@ -25903,7 +26225,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R86")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -25969,112 +26291,6 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 151.13 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5dee5ba-6a49-48f4-9dfa-bb19deff3b27")
-		(property "Reference" "J4"
-			(at 160.02 118.364 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
-			(at 154.94 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 154.94 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 151.13 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "e65e4f09-141f-4110-a546-d1f4211978c6")
-		)
-		(pin "B12"
-			(uuid "f4967c4e-87f3-462d-bebc-6fd66f69a01e")
-		)
-		(pin "A5"
-			(uuid "967a2fef-ca49-4e3f-83bc-6eedc1ea21e1")
-		)
-		(pin "B4"
-			(uuid "d20a742c-ef96-41da-a18f-05de27bfdd94")
-		)
-		(pin "A12"
-			(uuid "45ee1750-9091-41bc-858b-c8dc7b6e7522")
-		)
-		(pin "B1"
-			(uuid "ae158b44-3af5-40e2-af7d-77ce2967af1e")
-		)
-		(pin "A4"
-			(uuid "5897e817-8ccc-4a18-8c92-a6ce071dd80b")
-		)
-		(pin "S1"
-			(uuid "d49ec6d2-0437-4f05-bb30-f4db3f461a4e")
-		)
-		(pin "B9"
-			(uuid "cf9d5c5b-22e5-4366-9009-4d573c2013db")
-		)
-		(pin "B7"
-			(uuid "d45a79c0-99bd-4c86-be07-b5af9dfd1c41")
-		)
-		(pin "B5"
-			(uuid "2f89b0e7-8580-4834-abfa-d6b68c2a1059")
-		)
-		(pin "A6"
-			(uuid "4ea1e38c-0879-4f57-b7bd-6633b7a35de0")
-		)
-		(pin "B6"
-			(uuid "94cfe431-6e71-433d-9168-c91ed457c458")
-		)
-		(pin "A9"
-			(uuid "4bce06a5-eb22-478e-822e-e3e4c2aca540")
-		)
-		(pin "A7"
-			(uuid "e45087cc-4fed-41c4-b8f8-c2856965d280")
-		)
-		(instances
-			(project "stm32-fpga-bootloader"
-				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -26159,7 +26375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbfdc369-b7d1-4f7a-a05f-b722602998af")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR067"
 			(at 538.48 66.04 0)
 			(effects
 				(font
@@ -26209,7 +26425,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "#PWR0189")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -26224,7 +26440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fca3872d-e61f-4fd3-88b2-cec0867a5d7f")
-		(property "Reference" "R24"
+		(property "Reference" "R18"
 			(at 147.066 212.598 90)
 			(effects
 				(font
@@ -26276,7 +26492,7 @@
 		(instances
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "R24")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -26292,7 +26508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fde10d30-4d81-424b-9952-61ee7845a67a")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 86.106 209.804 0)
 			(effects
 				(font
@@ -26346,7 +26562,7 @@
 		(instances
 			(project ""
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -27436,48 +27652,6 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 450.85 125.73)
-		(size 36.83 63.5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f8c0ff28-3789-4e02-b69f-968e28b34b5f")
-		(property "Sheetname" "jtag-prog"
-			(at 450.85 125.0184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "jtag-prog.kicad_sch"
-			(at 450.85 189.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "stm32-fpga-bootloader"
-				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6"
-					(page "5")
 				)
 			)
 		)

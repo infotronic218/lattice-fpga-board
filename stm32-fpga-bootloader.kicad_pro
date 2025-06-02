@@ -523,6 +523,12 @@
       ],
       "/jtag-prog/D-": [
         "USB"
+      ],
+      "Net-(J4-Pin_1)": [
+        "USB"
+      ],
+      "Net-(J4-Pin_2)": [
+        "USB"
       ]
     },
     "netclass_patterns": []
@@ -820,10 +826,6 @@
     [
       "b1a1d0b6-0654-4813-ae61-177502822ff3",
       "displays"
-    ],
-    [
-      "f8c0ff28-3789-4e02-b69f-968e28b34b5f",
-      "jtag-prog"
     ],
     [
       "78f79e27-5991-443e-9657-8ff8f155d4b1",
