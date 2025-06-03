@@ -498,7 +498,13 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "/lcmxo2-cpld-block/VCC": "rgb(0, 0, 255)",
+      "/lcmxo2-cpld-block/VCCIO0": "rgb(0, 255, 0)",
+      "/lcmxo2-cpld-block/VCCIO1": "rgb(194, 194, 0)",
+      "/lcmxo2-cpld-block/VCCIO2": "rgb(255, 0, 255)",
+      "/lcmxo2-cpld-block/VCCIO3": "rgb(72, 0, 72)"
+    },
     "netclass_assignments": {
       "/D+": [
         "USB"
@@ -524,10 +530,10 @@
       "/jtag-prog/D-": [
         "USB"
       ],
-      "Net-(J4-Pin_1)": [
+      "/jtag-prog/USB_N": [
         "USB"
       ],
-      "Net-(J4-Pin_2)": [
+      "/jtag-prog/USB_P": [
         "USB"
       ]
     },
@@ -826,6 +832,10 @@
     [
       "b1a1d0b6-0654-4813-ae61-177502822ff3",
       "displays"
+    ],
+    [
+      "18a6db22-6310-447a-b64d-8b3f8728a8a2",
+      "jtag-prog"
     ],
     [
       "78f79e27-5991-443e-9657-8ff8f155d4b1",
