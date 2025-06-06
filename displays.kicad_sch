@@ -4665,17 +4665,6 @@
 		)
 		(uuid d1cd1b45-12b8-4498-8d5e-13e446258bad)
 	)
-	(text "TODO\nUpdate the pins orders in the Footprints"
-		(exclude_from_sim no)
-		(at 88.9 169.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 83 83 1)
-			)
-		)
-		(uuid "e63b40ac-8983-4611-8d91-e6bb503a8f9b")
-	)
 	(junction
 		(at 207.01 50.8)
 		(diameter 0)
