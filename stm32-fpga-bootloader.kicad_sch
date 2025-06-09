@@ -35373,7 +35373,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 191.77 59.69 0)
+		(at 161.29 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35382,7 +35382,7 @@
 		(dnp yes)
 		(uuid "2fb6d29f-4092-477f-917d-ebbfafd84999")
 		(property "Reference" "J1004"
-			(at 190.5 49.022 0)
+			(at 160.02 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35390,7 +35390,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 189.992 73.914 0)
+			(at 159.512 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35398,7 +35398,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 191.77 59.69 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35407,7 +35407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 59.69 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35416,7 +35416,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 59.69 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35425,7 +35425,7 @@
 			)
 		)
 		(property "LCSC" "~"
-			(at 191.77 59.69 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
