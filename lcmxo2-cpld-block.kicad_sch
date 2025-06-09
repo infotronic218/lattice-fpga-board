@@ -3938,6 +3938,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4042,6 +4192,131 @@
 				)
 			)
 			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4291,6 +4566,12 @@
 		(uuid "19f27937-4442-462b-8280-6348ed4d2273")
 	)
 	(junction
+		(at 227.33 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e353e83-6c2b-4883-8540-3022d66b9ce2")
+	)
+	(junction
 		(at 116.84 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4309,16 +4590,34 @@
 		(uuid "29953e87-577c-4ba7-8d58-9a652e842707")
 	)
 	(junction
+		(at 237.49 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ee7f9c-7759-4151-ab68-2b4a82d9cd21")
+	)
+	(junction
 		(at 121.92 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a91511f-845e-4ba2-84fa-75ff03214655")
 	)
 	(junction
+		(at 214.63 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f533167-8a8b-4a06-92a7-2aff563b9b7a")
+	)
+	(junction
 		(at 114.3 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30b41189-7c8c-49af-90cd-862f2bf05346")
+	)
+	(junction
+		(at 245.11 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dfc6cc5-b9c3-4bd8-8dd2-f7eb168df8df")
 	)
 	(junction
 		(at 104.14 17.78)
@@ -4387,6 +4686,12 @@
 		(uuid "a73b6b1c-6b53-497b-98d3-12247cc4cc25")
 	)
 	(junction
+		(at 274.32 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b512cbd3-3699-4b91-bc18-a8efe7774ec8")
+	)
+	(junction
 		(at 95.25 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4403,6 +4708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf43e660-9e1b-4af7-8e0e-4f4f237bf8cb")
+	)
+	(junction
+		(at 109.22 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0c5ede9-338d-455b-95d9-032d0465005d")
 	)
 	(junction
 		(at 129.54 187.96)
@@ -4447,16 +4758,28 @@
 		(uuid "ff3b0342-8cfa-4a8e-8933-8fbaf12a06a1")
 	)
 	(no_connect
-		(at 237.49 29.21)
-		(uuid "0e77ee75-491e-4c88-bb67-61735e0a0abf")
-	)
-	(no_connect
-		(at 227.33 29.21)
-		(uuid "4f77caff-1a16-4633-8ac7-c890d797b761")
-	)
-	(no_connect
 		(at 157.48 80.01)
 		(uuid "64cb59e9-bf59-4220-b0e0-e897c473861c")
+	)
+	(wire
+		(pts
+			(xy 157.48 128.27) (xy 180.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00df093b-e925-42fa-ac2c-3d5e221bf0e2")
+	)
+	(wire
+		(pts
+			(xy 245.11 142.24) (xy 245.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022f304f-aa54-4a4d-9da8-33cf12f15ce6")
 	)
 	(wire
 		(pts
@@ -4510,6 +4833,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 144.78) (xy 214.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088bd385-3fc6-4f65-8cfa-c7f6d238d44b")
+	)
+	(wire
+		(pts
 			(xy 172.72 87.63) (xy 157.48 87.63)
 		)
 		(stroke
@@ -4537,6 +4870,16 @@
 			(type default)
 		)
 		(uuid "0a360073-f868-424a-bc7f-51ec8e5eb732")
+	)
+	(wire
+		(pts
+			(xy 210.82 144.78) (xy 214.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7e5be1-2b7a-4c15-80cb-d24fd2b07a2d")
 	)
 	(wire
 		(pts
@@ -4590,6 +4933,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 144.78) (xy 274.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104625bd-7729-4903-9a54-ca35e1193086")
+	)
+	(wire
+		(pts
 			(xy 204.47 67.31) (xy 212.09 67.31)
 		)
 		(stroke
@@ -4617,6 +4970,16 @@
 			(type default)
 		)
 		(uuid "149905b4-0b98-447b-8fa0-4bfb62597af8")
+	)
+	(wire
+		(pts
+			(xy 214.63 142.24) (xy 214.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162b8d5e-0e36-4fdf-999c-54b97894ce2c")
 	)
 	(wire
 		(pts
@@ -4667,6 +5030,16 @@
 			(type default)
 		)
 		(uuid "17b32219-066b-47f2-b9ee-c749dc3eedf4")
+	)
+	(wire
+		(pts
+			(xy 236.22 26.67) (xy 237.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4abb38-5fec-499e-8ce9-e28ab23a0406")
 	)
 	(wire
 		(pts
@@ -4747,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "23a44c82-0c21-4fd8-bac8-538843ebf12b")
+	)
+	(wire
+		(pts
+			(xy 214.63 135.89) (xy 214.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a8b1cf-bd0e-40d7-8a41-e29fb64bf35f")
 	)
 	(wire
 		(pts
@@ -4850,6 +5233,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 144.78) (xy 245.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e90629-2010-412f-9f96-5c118fe9d925")
+	)
+	(wire
+		(pts
 			(xy 71.12 30.48) (xy 74.93 30.48)
 		)
 		(stroke
@@ -4910,6 +5303,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 19.05) (xy 237.49 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3b8ede-534c-41c6-9e10-0a85706a8f9e")
+	)
+	(wire
+		(pts
 			(xy 44.45 165.1) (xy 50.8 165.1)
 		)
 		(stroke
@@ -4940,6 +5343,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 104.14) (xy 274.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ea8200-723a-43d6-a508-63ef72ca88ed")
+	)
+	(wire
+		(pts
 			(xy 82.55 115.57) (xy 91.44 115.57)
 		)
 		(stroke
@@ -4957,6 +5370,16 @@
 			(type default)
 		)
 		(uuid "44b7fdf4-9251-4cf3-95c0-72742fb6c15a")
+	)
+	(wire
+		(pts
+			(xy 226.06 26.67) (xy 227.33 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453271a5-3797-4d63-bc2e-6a009771ea6f")
 	)
 	(wire
 		(pts
@@ -5010,6 +5433,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 25.4) (xy 227.33 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb5cf04-aec9-4d9f-b7ce-dc4abf484619")
+	)
+	(wire
+		(pts
 			(xy 172.72 85.09) (xy 157.48 85.09)
 		)
 		(stroke
@@ -5057,6 +5490,16 @@
 			(type default)
 		)
 		(uuid "503348e7-28f3-44c8-a6ec-ec3341103f67")
+	)
+	(wire
+		(pts
+			(xy 274.32 142.24) (xy 274.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b92c07-8bbf-4c20-9dcf-926c665baf54")
 	)
 	(wire
 		(pts
@@ -5190,6 +5633,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 144.78) (xy 274.32 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d0cb5c-4331-45be-8802-211b18725e31")
+	)
+	(wire
+		(pts
 			(xy 26.67 175.26) (xy 31.75 175.26)
 		)
 		(stroke
@@ -5267,6 +5720,26 @@
 			(type default)
 		)
 		(uuid "68e03691-7483-4943-9067-79039d009da5")
+	)
+	(wire
+		(pts
+			(xy 160.02 135.89) (xy 157.48 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6985d5f4-2448-44fa-aea9-2fd574c3b9c6")
+	)
+	(wire
+		(pts
+			(xy 237.49 105.41) (xy 241.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e881092-59c4-43de-8c7d-18b1edac6e16")
 	)
 	(wire
 		(pts
@@ -5420,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82625dc7-c7ee-4373-8b19-9173db9b9813")
+	)
+	(wire
+		(pts
 			(xy 80.01 59.69) (xy 85.09 59.69)
 		)
 		(stroke
@@ -5427,6 +5910,16 @@
 			(type default)
 		)
 		(uuid "83940c59-057e-48a7-b34c-4e8a045c18df")
+	)
+	(wire
+		(pts
+			(xy 257.81 105.41) (xy 257.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dd94cb-f469-473c-80fb-a2e1bffa0d93")
 	)
 	(wire
 		(pts
@@ -5460,6 +5953,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 135.89) (xy 274.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869224b6-c23d-4706-a900-08073558ee03")
+	)
+	(wire
+		(pts
 			(xy 114.3 187.96) (xy 114.3 189.23)
 		)
 		(stroke
@@ -5467,6 +5970,26 @@
 			(type default)
 		)
 		(uuid "887258b0-266b-44b6-96b3-6c194cc78b74")
+	)
+	(wire
+		(pts
+			(xy 227.33 26.67) (xy 227.33 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88889e71-5c2a-4512-85a5-5d137846727c")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b15157-38d6-421f-bd33-3a79d0acf5ca")
 	)
 	(wire
 		(pts
@@ -5497,6 +6020,16 @@
 			(type default)
 		)
 		(uuid "8e153ff3-6a8a-4d35-b124-623fab7394ac")
+	)
+	(wire
+		(pts
+			(xy 257.81 113.03) (xy 257.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e420e26-0e46-4445-a4a1-9c89e77c3441")
 	)
 	(wire
 		(pts
@@ -5557,6 +6090,16 @@
 			(type default)
 		)
 		(uuid "956a6c4d-e06f-46b7-b55a-8ef3c9e255ad")
+	)
+	(wire
+		(pts
+			(xy 241.3 120.65) (xy 241.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959ca496-8ad4-448a-aa1d-b3bf3c51b687")
 	)
 	(wire
 		(pts
@@ -5720,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 125.73) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcb9d57-231c-4c5e-91db-7f580fd73793")
+	)
+	(wire
+		(pts
 			(xy 116.84 187.96) (xy 119.38 187.96)
 		)
 		(stroke
@@ -5780,6 +6333,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 113.03) (xy 274.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45b9f0e-c732-4621-a612-7031ebcb8909")
+	)
+	(wire
+		(pts
 			(xy 80.01 62.23) (xy 91.44 62.23)
 		)
 		(stroke
@@ -5787,6 +6350,16 @@
 			(type default)
 		)
 		(uuid "a4e2701f-ddb5-4128-bf59-5d9b5474545b")
+	)
+	(wire
+		(pts
+			(xy 241.3 113.03) (xy 241.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5178b2e-3d34-4713-b888-297320a26098")
 	)
 	(wire
 		(pts
@@ -5830,6 +6403,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 130.81) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8ba688-c425-4d9d-8378-409ffdf3d66f")
+	)
+	(wire
+		(pts
 			(xy 29.21 170.18) (xy 31.75 170.18)
 		)
 		(stroke
@@ -5847,6 +6430,16 @@
 			(type default)
 		)
 		(uuid "aea63b27-e4b9-43be-906c-ec66721be00c")
+	)
+	(wire
+		(pts
+			(xy 241.3 105.41) (xy 241.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af46a769-3b60-4d02-88f7-4114a385e1c9")
 	)
 	(wire
 		(pts
@@ -5897,6 +6490,16 @@
 			(type default)
 		)
 		(uuid "b78d3955-c342-4685-975c-8545555231c4")
+	)
+	(wire
+		(pts
+			(xy 245.11 144.78) (xy 245.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ff0028-b17f-4a75-8cfa-67e31cff14d0")
 	)
 	(wire
 		(pts
@@ -6100,7 +6703,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 114.3 45.72)
+			(xy 274.32 104.14) (xy 274.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd74af5a-075c-4e62-92ba-478e81fe838b")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6170,6 +6783,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 133.35) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62e0622-f3e2-4810-b028-63a5ab27f91d")
+	)
+	(wire
+		(pts
 			(xy 134.62 48.26) (xy 135.89 48.26)
 		)
 		(stroke
@@ -6210,13 +6833,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 128.27) (xy 157.48 128.27)
+			(xy 245.11 135.89) (xy 245.11 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0a8123d-a488-40c8-a76d-1ce1271dcd56")
+		(uuid "de18e2d6-0c9d-4d80-a7ca-4a0b81dec4f1")
 	)
 	(wire
 		(pts
@@ -6267,6 +6890,26 @@
 			(type default)
 		)
 		(uuid "e5299b29-f334-43d0-9e0d-7f7892afe06b")
+	)
+	(wire
+		(pts
+			(xy 274.32 120.65) (xy 274.32 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e624971f-9994-4bc3-96d6-d5d634762daf")
+	)
+	(wire
+		(pts
+			(xy 257.81 120.65) (xy 257.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cfb518-88b8-4db6-acbd-688a5aa816f4")
 	)
 	(wire
 		(pts
@@ -6350,6 +6993,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 26.67) (xy 237.49 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe795b9-327b-4bd2-9bba-6ffe78687b81")
+	)
+	(wire
+		(pts
 			(xy 72.39 135.89) (xy 91.44 135.89)
 		)
 		(stroke
@@ -6357,6 +7010,16 @@
 			(type default)
 		)
 		(uuid "f110e57b-c3db-4a66-867a-62a401702ed0")
+	)
+	(wire
+		(pts
+			(xy 254 105.41) (xy 257.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f4e828-4263-45d4-95ab-0206bef4339b")
 	)
 	(wire
 		(pts
@@ -6438,6 +7101,16 @@
 		)
 		(uuid "fe5dc894-b71e-4fcf-8882-4b2f66776e28")
 	)
+	(wire
+		(pts
+			(xy 237.49 25.4) (xy 237.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febbe9d2-9d14-41dc-80b9-27dd37a379e4")
+	)
 	(label "PR5C/PCLKT1_0"
 		(at 72.39 138.43 0)
 		(effects
@@ -6447,6 +7120,16 @@
 			(justify left bottom)
 		)
 		(uuid "008e0947-a027-43e7-a896-6e6d351156da")
+	)
+	(label "PL2C/L_GPLLT_IN"
+		(at 160.02 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "008e2437-d1c6-4996-bf16-a7c0595484f0")
 	)
 	(label "PL8B"
 		(at 50.8 165.1 180)
@@ -6539,7 +7222,7 @@
 		(uuid "19218d5a-ba50-47d1-b554-b5a4dc1fe463")
 	)
 	(label "PL3B/PCLKC3_2"
-		(at 177.8 128.27 180)
+		(at 180.34 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6557,6 +7240,16 @@
 			(justify left bottom)
 		)
 		(uuid "21e396b6-f7da-4239-a9c4-8ad1242790da")
+	)
+	(label "PL3D"
+		(at 180.34 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "263f1cba-43f7-423a-815a-e6b893fde968")
 	)
 	(label "PR5C/PCLKT1_0"
 		(at 193.04 52.07 0)
@@ -6607,6 +7300,16 @@
 			(justify left bottom)
 		)
 		(uuid "3dad70d6-a1d8-48dc-8e38-1446dd89513d")
+	)
+	(label "PL2C/L_GPLLT_IN"
+		(at 241.3 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4aee7b44-63c5-4af3-985a-01600d6c03f8")
 	)
 	(label "PL8C"
 		(at 50.8 170.18 180)
@@ -6718,16 +7421,6 @@
 		)
 		(uuid "6d8a64a8-79ce-4473-81e5-aeb68a62c1e4")
 	)
-	(label "PL5B/PCLKC3_1"
-		(at 177.8 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "717e8748-b485-4e54-9712-784eaf6e1934")
-	)
 	(label "PR4A"
 		(at 204.47 69.85 0)
 		(effects
@@ -6828,6 +7521,16 @@
 		)
 		(uuid "90ef2eae-9c74-4873-96c7-25e9d6f7943e")
 	)
+	(label "PL3D"
+		(at 270.51 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "922272d9-70fb-4968-9873-e293cf49437c")
+	)
 	(label "PT15B"
 		(at 80.01 64.77 0)
 		(effects
@@ -6857,6 +7560,26 @@
 			(justify left bottom)
 		)
 		(uuid "96e7ee7a-3652-4a3a-a359-969b621e63c8")
+	)
+	(label "PL3C"
+		(at 254 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9883c8ba-4680-4f28-9956-4b893da64f2a")
+	)
+	(label "PL3A/PCLKT3_2"
+		(at 210.82 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "991b29b1-f66c-4546-891d-b4d6635efa89")
 	)
 	(label "PT15A"
 		(at 261.62 80.01 180)
@@ -6958,6 +7681,16 @@
 		)
 		(uuid "b08d6df6-995f-4121-b202-2c5a2784084d")
 	)
+	(label "PL2D/L_GPLLC_IN"
+		(at 160.02 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b347a30a-8328-4eef-9c5d-8a9034365298")
+	)
 	(label "PR2B"
 		(at 204.47 77.47 0)
 		(effects
@@ -7028,6 +7761,16 @@
 		)
 		(uuid "d16a246a-37fc-43cb-9cb5-4749fd1556ec")
 	)
+	(label "PL3C"
+		(at 180.34 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8dfeba1-60a2-44db-ac0b-cea9c93b0eec")
+	)
 	(label "PR4D"
 		(at 72.39 146.05 0)
 		(effects
@@ -7078,6 +7821,16 @@
 		)
 		(uuid "f2197920-a2d1-4b61-9df0-4147de80b0ef")
 	)
+	(label "PL2D/L_GPLLC_IN"
+		(at 270.51 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3f37a8e-fb54-4ff3-80a1-7bcbfc9f83b9")
+	)
 	(label "PR5D/PCLKC1_0"
 		(at 193.04 49.53 0)
 		(effects
@@ -7087,6 +7840,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8430155-3e34-444d-8834-0335cacf1d70")
+	)
+	(label "PL3A/PCLKT3_2"
+		(at 160.02 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc80c998-312b-4ca0-abd6-f0f7d9ce1b78")
 	)
 	(hierarchical_label "CPLD_B0_PT10A"
 		(shape passive)
@@ -7340,6 +8103,17 @@
 			(justify right)
 		)
 		(uuid "746942b6-4085-4f35-9cc3-2a4857d46696")
+	)
+	(hierarchical_label "PL5B{slash}PCLKC3_1"
+		(shape input)
+		(at 177.8 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74ab841c-8c5d-4e6a-b2a5-b59cb7ab946b")
 	)
 	(hierarchical_label "PR8A"
 		(shape passive)
@@ -7649,6 +8423,17 @@
 		)
 		(uuid "ee82870d-fcde-467b-a3a5-d931065bb6ed")
 	)
+	(hierarchical_label "PL5B{slash}PCLKC3_1"
+		(shape input)
+		(at 237.49 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eef73d6d-3ec1-41cd-be47-87ac31d8a604")
+	)
 	(hierarchical_label "PR10D"
 		(shape passive)
 		(at 86.36 120.65 180)
@@ -7681,6 +8466,81 @@
 			(justify left)
 		)
 		(uuid "ff2fea89-f65a-4bbf-ae2a-6f2e1ee3a039")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 274.32 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0578f483-54de-412a-9dab-27a6f3187752")
+		(property "Reference" "SW6"
+			(at 272.034 149.86 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "BTN"
+			(at 272.034 159.004 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SW-SMD_L3.9-W3.0-P4.45"
+			(at 269.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 274.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 274.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73e55f38-8bca-4aa1-9454-22d70530d00a")
+		)
+		(pin "2"
+			(uuid "9aaedfc1-cf79-42aa-90c8-2f48f675f6c6")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7802,6 +8662,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525 "
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7951,6 +8819,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 245.11 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe42f4c-231a-42fd-8fd1-cac51177ec46")
+		(property "Reference" "R17"
+			(at 247.65 138.4299 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 140.9699 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11616"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "497c960f-ab3c-43de-b457-f863875240e3")
+		)
+		(pin "1"
+			(uuid "cd6cc3ad-ec62-404e-baa1-27aea52b165b")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 104.14 20.32 0)
 		(unit 1)
@@ -8003,6 +8949,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525 "
+			(at 104.14 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8286,9 +9240,9 @@
 		(at 36.83 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "19166990-8bdc-43b8-acc3-aa3b3880f400")
 		(property "Reference" "J12"
@@ -8332,6 +9286,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "~"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8439,6 +9401,71 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a56b9e5-1b36-468b-81be-dc4f4f6f5ca7")
+		(property "Reference" "#PWR0171"
+			(at 214.63 165.1 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 162.306 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed88c04-7303-483a-97bc-372ddcbeabdb")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -8577,6 +9604,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 274.32 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1faeb56d-3790-42b1-83dc-8627ba551fc2")
+		(property "Reference" "#PWR035"
+			(at 274.32 165.1 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 162.306 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b68e35e-0581-4e42-a594-9c1884c210bd")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 36.83 87.63 0)
 		(unit 1)
@@ -8695,6 +9787,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1002"
+			(at 175.26 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d88b6a8-0e06-4ab1-a694-20ec2ac8ee35")
 		)
@@ -8705,6 +9805,84 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 257.81 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3693d9b2-ffb2-4575-913c-86265ea3f23d")
+		(property "Reference" "D13"
+			(at 260.35 116.7764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 260.35 119.3164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 257.81 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0663c251-1996-4b4d-8b05-8da4b29d0bab")
+		)
+		(pin "1"
+			(uuid "37394adb-d05c-400c-be7b-8bd5daa42dbe")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8777,6 +9955,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 241.3 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d577d02-9d79-4e8e-84f1-a9b0cbf12d75")
+		(property "Reference" "D15"
+			(at 243.84 116.7764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 243.84 119.3164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 241.3 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd8240db-1fd8-41d4-9eef-a9adbe39907c")
+		)
+		(pin "1"
+			(uuid "d00e23ba-6dd8-494e-8900-be5741f9afd2")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 63.5 62.23 180)
 		(unit 1)
@@ -8826,6 +10082,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C25879"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8903,6 +10167,71 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 274.32 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44563ae7-da81-45e6-9541-893c09b49ba4")
+		(property "Reference" "#PWR036"
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 274.32 131.826 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 274.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3915e95c-464c-45b3-ac7f-370fc2f3a2e0")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9029,6 +10358,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 167.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6aa8c8a2-b983-4e70-b3a4-c57904bce29d")
 		)
@@ -9039,6 +10376,81 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 227.33 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50061e9b-4e68-44f4-ae7d-969eff5a37a7")
+		(property "Reference" "R85"
+			(at 225.044 20.574 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 224.79 23.622 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 227.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 227.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C17168"
+			(at 227.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d65f4c14-22f7-4426-89f0-1dbba39ddcb7")
+		)
+		(pin "1"
+			(uuid "e76d81bc-9aaa-47e4-a922-3ec2519ca466")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -9159,6 +10571,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 77.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9428,6 +10848,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 151.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a3f49f5b-304c-407a-8aa1-87d1a81b43ed")
 		)
@@ -9448,9 +10876,9 @@
 		(at 232.41 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "66f2ff98-b3ca-4891-ae83-0bdde91d18db")
 		(property "Reference" "J13"
@@ -9496,6 +10924,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "~"
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "25"
@@ -9695,6 +11131,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 227.33 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1ec4a1-2a29-43b8-92e8-6253cb5ebea6")
+		(property "Reference" "#PWR06001"
+			(at 227.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 227.33 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 227.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d8acda9-af11-4e57-81de-28c3fdf1b0a2")
+		)
+		(instances
+			(project ""
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR06001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "718677b4-6c89-4d41-a622-88d79f50afd5")
+		(property "Reference" "#PWR032"
+			(at 257.81 128.27 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 125.476 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baadec7c-f4ce-4063-8942-58ec1599f6bf")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 95.25 33.02 0)
 		(unit 1)
@@ -9749,6 +11316,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 95.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "71bd76a7-d72b-4397-bf02-c1e21c544533")
 		)
@@ -9759,6 +11334,159 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 245.11 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78989ad3-7cb4-4809-b176-fc69544fcb61")
+		(property "Reference" "SW7"
+			(at 242.824 149.86 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "BTN"
+			(at 242.824 159.004 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SW-SMD_L3.9-W3.0-P4.45"
+			(at 240.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e2dcbce-d8c8-46d2-8254-e7bbc59b67e2")
+		)
+		(pin "2"
+			(uuid "682e78c7-789e-4468-8fb7-4e5ec74c4fce")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 257.81 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79381021-ab84-4502-a1ef-e46a26d9dc71")
+		(property "Reference" "R14"
+			(at 260.35 109.22 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 260.35 111.76 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22765"
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a053d9a2-8251-40a4-9eaf-94d67d96a663")
+		)
+		(pin "1"
+			(uuid "96c574d9-2882-4cde-841f-8e8275df0126")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9820,6 +11548,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 160.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a939b00c-1949-41a2-ae59-e468be6c6a54")
 		)
@@ -9830,6 +11566,138 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 245.11 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83b386ad-9470-4955-b8c6-1ceea0684467")
+		(property "Reference" "#PWR037"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 245.11 131.826 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 245.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "485f8fc0-7cee-412e-b0bb-6572981e573e")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f849d8-55f9-4a1d-a690-8c6b10043de0")
+		(property "Reference" "#FLG06005"
+			(at 109.22 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c5db874-82bf-45cb-87f7-aca484b1aade")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#FLG06005")
 					(unit 1)
 				)
 			)
@@ -9954,6 +11822,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11616"
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e5ae2b49-20ac-49d0-a04e-6f5a2dd73f48")
 		)
@@ -9964,6 +11840,73 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 236.22 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9036770f-ec06-4002-a4e2-aef1cdc5e108")
+		(property "Reference" "#FLG06007"
+			(at 234.315 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 236.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a07ab501-9df8-4419-9a9e-c0161bb81aa5")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#FLG06007")
 					(unit 1)
 				)
 			)
@@ -10089,6 +12032,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 95.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de860837-daa3-483b-8349-082ec315bc6c")
 		)
@@ -10099,6 +12050,226 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 214.63 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95839487-8194-4001-8aa7-8e0e884a4351")
+		(property "Reference" "SW8"
+			(at 212.344 149.86 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "BTN"
+			(at 212.344 159.004 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SW-SMD_L3.9-W3.0-P4.45"
+			(at 209.55 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 214.63 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 214.63 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df9864b7-6e9c-4370-9493-4d93c902fee8")
+		)
+		(pin "2"
+			(uuid "e0b5f131-b4a3-4fcc-9845-676e639c3f1d")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 274.32 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e5b072-eeaf-4ea6-9195-ca832de230f9")
+		(property "Reference" "R16"
+			(at 276.86 138.4299 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 276.86 140.9699 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11616"
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e243ad4-8daa-48c4-ab7e-6de4061362e7")
+		)
+		(pin "1"
+			(uuid "08d73610-8adb-44d6-873a-7b3869468110")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 226.06 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9765c463-a645-46d0-87b6-6cb3229318f7")
+		(property "Reference" "#FLG06006"
+			(at 224.155 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 226.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f3b9931-8973-4ee0-a9e0-61d9982c398b")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#FLG06006")
 					(unit 1)
 				)
 			)
@@ -10164,6 +12335,149 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a38b4080-c7f8-4a1c-93f7-4f4adf8f1bc9")
+		(property "Reference" "#PWR0172"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 125.476 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cafb80a2-a0b6-4150-bbaf-106002692ce0")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 274.32 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5483d9a-d346-41c8-8ffa-34967dd6dbf3")
+		(property "Reference" "D14"
+			(at 276.86 116.7764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 276.86 119.3164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 274.32 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 274.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 274.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f33d7e78-b908-4b45-b454-85fc2dd3c926")
+		)
+		(pin "1"
+			(uuid "b2b3c592-a23a-46c7-84e0-217c51032eb5")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10285,6 +12599,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C25879"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10435,6 +12757,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 274.32 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af2822f8-b47e-4396-acd7-96a59fc5fbf4")
+		(property "Reference" "R15"
+			(at 276.86 109.22 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 276.86 111.76 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 274.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 274.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22765"
+			(at 274.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e49cb833-1bf3-4f97-8688-1edcb92f30fb")
+		)
+		(pin "1"
+			(uuid "740f9344-420d-4273-b695-092051937c2d")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SM4007")
 		(at 114.3 38.1 90)
 		(unit 1)
@@ -10486,22 +12886,12 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
+		(property "LCSC" "C7420328"
 			(at 114.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10569,6 +12959,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 77.47 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10641,35 +13039,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "LCMXO2-1200HC-4TG100I"
-			(at 124.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "LATTICE(莱迪思)"
 			(at 125.222 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C1521611"
-			(at 124.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,6 +13055,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1521611"
+			(at 124.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "99"
@@ -11048,6 +13427,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81f1bdd3-ade8-4010-9445-cef8bcae5419")
 		)
@@ -11058,6 +13445,84 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0eb5056-3b59-49d4-9ab2-aa69bef2e354")
+		(property "Reference" "R18"
+			(at 217.17 138.4299 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 217.17 140.9699 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11616"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "511c4e58-34d4-484c-8a22-15d6ee6c4aaf")
+		)
+		(pin "1"
+			(uuid "bd895b49-d8c0-433d-b26d-851e55ae843f")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11116,6 +13581,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C11616"
+			(at 85.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11448,6 +13921,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5402ccc6-753d-48da-9b98-93cf7863ce23")
 		)
@@ -11519,6 +14000,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6a954a51-5f27-49da-8479-3af3e76373a8")
 		)
@@ -11529,6 +14018,146 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 237.49 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dedbfee8-4708-4494-b55d-84ea76c281a4")
+		(property "Reference" "R84"
+			(at 235.204 20.32 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 234.696 24.13 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 237.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C17168"
+			(at 237.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f7588c9-d891-4e95-847b-8e147617db04")
+		)
+		(pin "1"
+			(uuid "41489343-2447-4699-a8e6-1447d81ba0d8")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df4cb7c5-cdc1-4e9e-a33a-90adc4d8e26c")
+		(property "Reference" "#PWR033"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 125.476 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93106be4-1abc-472a-b6b1-4500ab1f4afb")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11586,6 +14215,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C11616"
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11725,13 +14362,12 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "LCSC" "C2286"
 			(at 36.83 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11744,6 +14380,137 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 214.63 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea566458-4258-4e52-b4cf-f76747ec9678")
+		(property "Reference" "#PWR042"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 214.63 131.826 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a71b8d3-6ae6-4ae6-acb1-312e9455034a")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 237.49 19.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee5aa5c6-7db3-4bea-84af-0e16230abcd5")
+		(property "Reference" "#PWR0170"
+			(at 237.49 22.86 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.49 15.494 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67148ab3-633d-442b-9221-b8d163203629")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -11868,6 +14635,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11616"
+			(at 36.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f76d08a7-c6d2-482f-b5f5-872f83cca0f0")
 		)
@@ -11936,6 +14711,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525 "
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eeeb969d-abac-43c5-acdc-cdadcb972bfa")
 		)
@@ -11946,6 +14729,149 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 241.3 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6799c58-0219-4c21-8ae3-1ba59663dd74")
+		(property "Reference" "R86"
+			(at 243.84 109.22 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 243.84 111.76 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22765"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd5eb84a-4995-4f25-a202-c714d971515f")
+		)
+		(pin "1"
+			(uuid "3a9ecc98-6d77-4019-b7fb-162ee4d9cb03")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc2341d3-1095-4e12-b392-8cb761307468")
+		(property "Reference" "#PWR040"
+			(at 245.11 165.1 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 162.306 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912106ba-045a-4a93-899f-36c5eec4891c")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12069,6 +14995,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 175.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
