@@ -748,6 +748,10 @@
     [
       "78f79e27-5991-443e-9657-8ff8f155d4b1",
       "lcmxo2-cpld-block"
+    ],
+    [
+      "aedee02a-1f97-4f0e-8863-f453a758e02d",
+      "isolated-measurements"
     ]
   ],
   "text_variables": {}
