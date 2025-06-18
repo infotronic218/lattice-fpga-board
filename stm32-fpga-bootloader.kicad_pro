@@ -191,7 +191,10 @@
         0.2,
         0.254,
         0.3,
-        0.4
+        0.4,
+        0.5,
+        0.6,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -674,7 +677,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",

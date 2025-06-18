@@ -9425,6 +9425,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11138,6 +11139,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12596,6 +12598,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13525,6 +13528,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14158,6 +14162,104 @@
 			(project "stm32-fpga-bootloader"
 				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 15.24 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7fa40c6-a939-4566-9259-36de4831b0df")
+		(property "Reference" "J6001"
+			(at 16.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 16.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+			(at 15.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 15.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e13cc5db-5161-4acd-884e-7d4f886cc735")
+		)
+		(pin "7"
+			(uuid "f0dac791-ff19-418f-b958-74d93361d622")
+		)
+		(pin "9"
+			(uuid "2f129271-0a13-48cf-97b6-2c64c32861b5")
+		)
+		(pin "4"
+			(uuid "ddec8f95-67a9-436b-a91c-79612e6f8adc")
+		)
+		(pin "8"
+			(uuid "13a32e3b-47b7-4603-8e98-72df7deb38bd")
+		)
+		(pin "1"
+			(uuid "d8427f11-fa69-4c13-b326-adbf10ca83a5")
+		)
+		(pin "10"
+			(uuid "8d3197f7-25a1-4a20-adfe-2c55d017b33d")
+		)
+		(pin "12"
+			(uuid "ee175a37-ab89-4eef-a128-2ea1d7ceb9ce")
+		)
+		(pin "6"
+			(uuid "eb31553e-5e4a-4ab7-bde1-488defad0f5f")
+		)
+		(pin "2"
+			(uuid "651dd351-f0be-4957-9a00-62a0548add65")
+		)
+		(pin "11"
+			(uuid "46c21396-929a-47e1-8369-ccb34e0a3500")
+		)
+		(pin "3"
+			(uuid "82e42107-a132-4786-957b-86bcf4b9f16a")
+		)
+		(instances
+			(project ""
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/78f79e27-5991-443e-9657-8ff8f155d4b1"
+					(reference "J6001")
 					(unit 1)
 				)
 			)
