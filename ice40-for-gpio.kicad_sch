@@ -2719,6 +2719,12 @@
 		(uuid "e5b49230-e601-4e52-a151-38d9884de42a")
 	)
 	(junction
+		(at 236.22 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eea8f100-3cfd-4667-bc10-ef571d17703d")
+	)
+	(junction
 		(at 158.75 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2833,6 +2839,16 @@
 			(type default)
 		)
 		(uuid "1ac0614a-2bdd-48cf-a6a8-c73d44b239e1")
+	)
+	(wire
+		(pts
+			(xy 236.22 49.53) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d93152e-2719-4239-89f0-ab4ba2cedb54")
 	)
 	(wire
 		(pts
@@ -3286,7 +3302,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 49.53) (xy 243.84 49.53)
+			(xy 236.22 49.53) (xy 243.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3746,6 +3762,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 57.15) (xy 236.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36afb20-3612-49f9-942a-c39b950f8417")
+	)
+	(wire
+		(pts
 			(xy 237.49 31.75) (xy 237.49 33.02)
 		)
 		(stroke
@@ -3766,7 +3792,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 49.53) (xy 219.71 49.53)
+			(xy 228.6 49.53) (xy 219.71 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4440,7 +4466,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SM4007")
-		(at 234.95 49.53 180)
+		(at 232.41 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4448,7 +4474,7 @@
 		(dnp no)
 		(uuid "007f4026-ee2c-4a64-914b-af710354b2f0")
 		(property "Reference" "D8"
-			(at 239.522 52.324 0)
+			(at 233.426 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4482,7 @@
 			)
 		)
 		(property "Value" "SM4007"
-			(at 230.632 52.578 0)
+			(at 228.092 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4490,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 234.95 45.085 0)
+			(at 232.41 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4499,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
-			(at 234.95 49.53 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4508,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
-			(at 234.95 49.53 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,11 +4517,12 @@
 			)
 		)
 		(property "LCSC" "C7420328"
-			(at 234.95 49.53 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5603,7 +5630,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f0bca8c-d581-46e5-afaf-e4d3f8cba6a2")
 		(property "Reference" "C21"
-			(at 90.17 31.7562 0)
+			(at 90.17 31.7563 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -5612,7 +5639,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 90.17 34.2962 0)
+			(at 90.17 34.2963 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -5653,6 +5680,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5681,7 +5709,7 @@
 		(fields_autoplaced yes)
 		(uuid "3069aea5-bfbe-47ee-b195-1d15570049ad")
 		(property "Reference" "C27"
-			(at 222.25 50.8062 0)
+			(at 222.25 50.8063 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -5690,7 +5718,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 222.25 53.3462 0)
+			(at 222.25 53.3463 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -5731,6 +5759,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5809,6 +5838,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6399,6 +6429,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6542,6 +6573,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6570,7 +6602,7 @@
 		(fields_autoplaced yes)
 		(uuid "7632f4d1-3ba3-43f7-b954-2a8914e17e39")
 		(property "Reference" "C31"
-			(at 246.38 53.3462 0)
+			(at 246.38 53.3463 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6579,7 +6611,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 246.38 55.8862 0)
+			(at 246.38 55.8863 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -6620,6 +6652,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6716,6 +6749,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 236.22 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8588829b-4d90-4a4d-9f3a-b88230cebeb3")
+		(property "Reference" "#PWR0157"
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 63.5 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac75eb1d-e642-4dcc-a2fb-700db1e6f813")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/f3632bef-2b61-47cc-a59f-7ffc5c491629"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 158.75 82.55 0)
 		(unit 1)
@@ -6781,6 +6881,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "917ca2fa-7a90-4007-9a25-f4a9fcefa728")
+		(property "Reference" "C48"
+			(at 238.76 53.3463 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 238.76 55.8863 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525 "
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "266a9299-4ecf-4737-a4b9-c5154bc73c59")
+		)
+		(pin "1"
+			(uuid "9d047c00-3d05-403c-95bf-5be2134e1fb3")
+		)
+		(instances
+			(project "stm32-fpga-bootloader"
+				(path "/5ed49623-6cbc-4a61-8fb3-1814d185ddb6/f3632bef-2b61-47cc-a59f-7ffc5c491629"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 91.44 97.79 0)
 		(unit 1)
@@ -6808,7 +6987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -8977,7 +9156,7 @@
 		(fields_autoplaced yes)
 		(uuid "dad8e99f-f785-4c47-b5b7-4b9aa36ab7b5")
 		(property "Reference" "C28"
-			(at 232.41 34.2962 0)
+			(at 232.41 34.2963 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8986,7 +9165,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 232.41 36.8362 0)
+			(at 232.41 36.8363 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9027,6 +9206,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9183,6 +9363,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9388,6 +9569,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
