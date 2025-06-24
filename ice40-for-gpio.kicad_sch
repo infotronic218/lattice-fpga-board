@@ -2902,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 120.65) (xy 148.59 120.65)
+			(xy 142.24 120.65) (xy 148.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 130.81) (xy 148.59 130.81)
+			(xy 142.24 130.81) (xy 148.59 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2972,7 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 148.59 113.03)
+			(xy 142.24 113.03) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 148.59 110.49)
+			(xy 142.24 110.49) (xy 148.59 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 123.19) (xy 148.59 123.19)
+			(xy 142.24 123.19) (xy 148.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3202,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 107.95) (xy 148.59 107.95)
+			(xy 142.24 107.95) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3252,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 148.59 115.57)
+			(xy 142.24 115.57) (xy 148.59 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3312,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 140.97) (xy 148.59 140.97)
+			(xy 133.35 140.97) (xy 148.59 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3402,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 128.27) (xy 148.59 128.27)
+			(xy 142.24 128.27) (xy 148.59 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 148.59 105.41)
+			(xy 142.24 105.41) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3482,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 133.35) (xy 148.59 133.35)
+			(xy 142.24 133.35) (xy 148.59 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3572,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 138.43) (xy 148.59 138.43)
+			(xy 133.35 138.43) (xy 148.59 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3632,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 148.59 100.33)
+			(xy 142.24 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3652,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 118.11) (xy 148.59 118.11)
+			(xy 142.24 118.11) (xy 148.59 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3702,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 148.59 102.87)
+			(xy 142.24 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3722,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 125.73) (xy 148.59 125.73)
+			(xy 142.24 125.73) (xy 148.59 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3951,7 +3951,7 @@
 		(uuid "00147e3e-f1cd-47e3-b619-88d6c563c83d")
 	)
 	(label "ICE_LED2"
-		(at 137.16 140.97 0)
+		(at 133.35 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3961,7 +3961,7 @@
 		(uuid "10e57baf-58fe-4e49-96cb-378359593f65")
 	)
 	(label "ICE_LED1"
-		(at 137.16 138.43 0)
+		(at 133.35 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3993,7 +3993,7 @@
 	)
 	(hierarchical_label "IOT_43a"
 		(shape bidirectional)
-		(at 146.05 115.57 180)
+		(at 142.24 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4026,7 +4026,7 @@
 	)
 	(hierarchical_label "IOT_51a"
 		(shape bidirectional)
-		(at 146.05 133.35 180)
+		(at 142.24 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4070,7 +4070,7 @@
 	)
 	(hierarchical_label "IOT_46b_G0"
 		(shape bidirectional)
-		(at 146.05 123.19 180)
+		(at 142.24 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4092,7 +4092,7 @@
 	)
 	(hierarchical_label "IOT_48b"
 		(shape bidirectional)
-		(at 146.05 125.73 180)
+		(at 142.24 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4125,7 +4125,7 @@
 	)
 	(hierarchical_label "IOT_49a"
 		(shape bidirectional)
-		(at 146.05 128.27 180)
+		(at 142.24 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 	)
 	(hierarchical_label "IOT_42b"
 		(shape bidirectional)
-		(at 146.05 113.03 180)
+		(at 142.24 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4158,7 +4158,7 @@
 	)
 	(hierarchical_label "IOT_44b"
 		(shape bidirectional)
-		(at 146.05 118.11 180)
+		(at 142.24 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4246,7 +4246,7 @@
 	)
 	(hierarchical_label "IOT_39a"
 		(shape bidirectional)
-		(at 146.05 107.95 180)
+		(at 142.24 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4290,7 +4290,7 @@
 	)
 	(hierarchical_label "IOT_45a_G1"
 		(shape bidirectional)
-		(at 146.05 120.65 180)
+		(at 142.24 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4301,7 +4301,7 @@
 	)
 	(hierarchical_label "IOT_37a"
 		(shape bidirectional)
-		(at 146.05 102.87 180)
+		(at 142.24 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4323,7 +4323,7 @@
 	)
 	(hierarchical_label "IOT_36b"
 		(shape bidirectional)
-		(at 146.05 100.33 180)
+		(at 142.24 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,7 +4334,7 @@
 	)
 	(hierarchical_label "IOT_50b"
 		(shape bidirectional)
-		(at 146.05 130.81 180)
+		(at 142.24 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4356,7 +4356,7 @@
 	)
 	(hierarchical_label "IOT_41a"
 		(shape bidirectional)
-		(at 146.05 110.49 180)
+		(at 142.24 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,7 +4378,7 @@
 	)
 	(hierarchical_label "IOT_38b"
 		(shape bidirectional)
-		(at 146.05 105.41 180)
+		(at 142.24 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)

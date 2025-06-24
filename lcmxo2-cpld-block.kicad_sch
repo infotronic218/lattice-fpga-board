@@ -5957,7 +5957,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 146.05) (xy 31.75 146.05)
+			(xy 26.67 146.05) (xy 31.75 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6177,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 148.59) (xy 31.75 148.59)
+			(xy 26.67 148.59) (xy 31.75 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6427,6 +6427,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 143.51) (xy 31.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a000beb7-e7b6-462f-8d20-8ea2ba02781f")
+	)
+	(wire
+		(pts
 			(xy 205.74 67.31) (xy 212.09 67.31)
 		)
 		(stroke
@@ -6604,6 +6614,16 @@
 			(type default)
 		)
 		(uuid "b78d3955-c342-4685-975c-8545555231c4")
+	)
+	(wire
+		(pts
+			(xy 26.67 140.97) (xy 31.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b3a1ac-bb36-40b9-9655-266f77cf5c74")
 	)
 	(wire
 		(pts
@@ -7335,6 +7355,16 @@
 		)
 		(uuid "2b389783-95c2-4237-bc4d-677ef81b138b")
 	)
+	(label "PR9D"
+		(at 26.67 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "320c0e87-5279-4cc3-8073-5b4faee45d53")
+	)
 	(label "PR5D/PCLKC1_0"
 		(at 81.28 135.89 180)
 		(effects
@@ -7385,6 +7415,16 @@
 		)
 		(uuid "42800212-ba8f-4645-b34e-4a696b26e308")
 	)
+	(label "PR9C"
+		(at 26.67 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "440de1de-ee10-4d98-b3fb-b6c6137c90a6")
+	)
 	(label "PB18A"
 		(at 55.88 148.59 180)
 		(effects
@@ -7404,6 +7444,16 @@
 			(justify right bottom)
 		)
 		(uuid "4b6b21fd-0eef-4ce2-9022-7ecd52faadb6")
+	)
+	(label "PR9B"
+		(at 26.67 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ee595f2-a3af-4eeb-946f-2198dd7b8736")
 	)
 	(label "PB4D"
 		(at 261.62 36.83 180)
@@ -7434,6 +7484,16 @@
 			(justify left bottom)
 		)
 		(uuid "5d26fb77-b1cc-4676-893f-0bb989e011ba")
+	)
+	(label "PR9A"
+		(at 26.67 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f51fb20-3cbc-47fa-9804-8a5745832768")
 	)
 	(label "PB18D"
 		(at 49.53 140.97 0)
